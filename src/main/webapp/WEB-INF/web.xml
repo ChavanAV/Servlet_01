@@ -25,4 +25,13 @@
 	    <servlet-name>HttpExm</servlet-name>
 	    <url-pattern>/exm</url-pattern>
 	</servlet-mapping>
+	<servlet>
+	    <servlet-name>Register</servlet-name>
+	    <servlet-class>qsp.Register</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	    <servlet-name>Register</servlet-name>
+	    <url-pattern>/reg</url-pattern>
+	</servlet-mapping>
 </web-app>
